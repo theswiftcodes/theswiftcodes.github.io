@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Google Image
+User-agent: Googlebot-Image
+Allow: /
+
+# Google AdSense
+User-agent: Mediapartners-Google*
+Allow: /
+
+Sitemap: http://www.swift-code.com/sitemap.part01.xml.gz
+Sitemap: http://www.swift-code.com/sitemap.part02.xml.gz
+Sitemap: http://www.swift-code.com/sitemap.part03.xml.gz
