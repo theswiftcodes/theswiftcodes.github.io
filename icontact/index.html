@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<title>swift-code.com Contact Form</title>
+
+<link href="assets/css/contact.css" rel="stylesheet" type="text/css" /> 
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"></script>
+<script src="assets/js/jquery.jigowatt.js"></script> 
+
+<!--[if IE]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+	<section id="contact">
+
+
+
+		<mark id="message"></mark>
+
+		<form method="post" action="http://theswiftcodes.github.io/icontact/classes/contact.php" name="contactform" id="contactform" autocomplete="on">
+
+			<fieldset>
+
+				<legend>Contact Details</legend>
+
+				<div>
+					<label for="name" accesskey="U">Your Name</label>
+					<input name="name" type="text" id="name" placeholder="Enter your name" required="required" />
+				</div>
+				<div>
+					<label for="email" accesskey="E">Email</label>
+					<input name="email" type="email" id="email" placeholder="Enter your Email Address" pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$" required="required" />
+				</div>
+
+				<div>
+					<label for="website" accesskey="W">Website <small>(optional)</small></label>
+					<input name="website" type="url" id="website" placeholder="Enter your website address" />
+				</div>
+
+			</fieldset>
+
+			<fieldset>
+
+				<legend>Your Messages</legend>
+
+				<div>
+					<label for="subject" accesskey="S">Subject</label>
+					<select name="subject" id="subject" required="required">
+						<option value="General Question">General Question</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="messages" accesskey="C">Messages</label>
+					<textarea name="messages" cols="50" rows="10" id="messages" placeholder="Enter your messages" spellcheck="true" required="required"></textarea>
+				</div>
+
+			</fieldset>
+
+			<fieldset>
+
+				<legend>Are you human?</legend>
+
+				<label for="verify" accesskey="V" class="verify"><img src="classes/image.html" alt="Verification code" /></label>
+				<input name="verify" type="text" id="verify" size="6" required="required" style="width: 50px;" title="This confirms you are a human user and not a spam-bot." />
+
+			</fieldset>
+
+			<input type="submit" class="submit" id="submit" value="Submit" />
+
+		</form>
+
+	</section>
+
+</body>
+
+
+</html>
