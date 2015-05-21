@@ -12,6 +12,6 @@ Allow: /
 User-agent: Mediapartners-Google*
 Allow: /
 
-Sitemap: http://theswiftcodes.github.io/sitemap.part01.xml.gz
-Sitemap: http://theswiftcodes.github.io/sitemap.part02.xml.gz
-Sitemap: http://theswiftcodes.github.io/sitemap.part03.xml.gz
+Sitemap: https://theswiftcodes.github.io/sitemap.part01.xml
+Sitemap: https://theswiftcodes.github.io/sitemap.part02.xml
+Sitemap: https://theswiftcodes.github.io/sitemap.part03.xml
